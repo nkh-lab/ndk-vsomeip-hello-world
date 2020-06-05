@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".ServiceVsomeipHelloWorldService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".ServiceVsomeipHelloWorldClient"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
