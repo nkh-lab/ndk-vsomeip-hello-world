@@ -1,10 +1,14 @@
 # ndk-vsomeip-hello-world
-
 Android Studio example how to use vsomeip between two app services from native code.
 
-## Requires
+## Environment
+- Android Studio
+- CMake 3.17.2 (for boost-cmake)
+
+## Dependencies
+Git submodule projects:
 - vsomeip: For now used forked vsomeip (https://github.com/nkh-lab/vsomeip) due to some fixes are required in origin GENIVI vsomeip project.
-- boost: Used CMake adapted boost (https://github.com/Orphis/boost-cmake).
+- boost-cmake: Used CMake adapted boost (https://github.com/Orphis/boost-cmake).
 
 ## Project setup
 1. Clone main git project:
