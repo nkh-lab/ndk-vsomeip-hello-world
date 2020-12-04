@@ -7,7 +7,7 @@ Android Studio example how to use vsomeip between two app services from native c
 
 ## Dependencies
 Git submodule projects:
-- vsomeip 3.1.20.1: (https://github.com/GENIVI/vsomeip.git).
+- vsomeip 3.1.20.2: (https://github.com/GENIVI/vsomeip.git).
 - boost-cmake: Used CMake adapted boost (https://github.com/Orphis/boost-cmake).
 
 ## Project setup
