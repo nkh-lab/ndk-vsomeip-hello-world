@@ -1,6 +1,10 @@
 # ndk-vsomeip-hello-world
 Android Studio example how to use vsomeip between two app services from native code.
 
+Based on the original vsomeip example https://github.com/GENIVI/vsomeip/tree/master/examples/hello_world
+
+![](doc/SequenceDiagram.png)
+
 ## Environment
 - Android Studio
 - CMake 3.17.2 (for boost-cmake)

@@ -1,0 +1,20 @@
+@startuml
+box "Native part of android app services" #LightBlue
+participant ":Service1" as Service1
+participant ":Service2" as Service2
+end box
+box "vsomeip Hello World example"
+participant ":hello_world_service" as hello_world_service
+participant ":hello_world_client" as hello_world_client
+end box
+
+create hello_world_service
+Service1 -> hello_world_service : new
+
+create hello_world_client
+Service1 -> hello_world_client : new
+
+hello_world_client -> hello_world_service : Word
+hello_world_service -> hello_world_client : Hello World
+
+@enduml
