@@ -12,7 +12,7 @@ create hello_world_service
 Service1 -> hello_world_service : new
 
 create hello_world_client
-Service1 -> hello_world_client : new
+Service2 -> hello_world_client : new
 
 hello_world_client -> hello_world_service : Word
 hello_world_service -> hello_world_client : Hello World
