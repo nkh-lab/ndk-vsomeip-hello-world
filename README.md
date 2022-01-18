@@ -7,7 +7,7 @@ Based on the original vsomeip example https://github.com/GENIVI/vsomeip/tree/mas
 
 ## Environment
 - Android Studio
-- CMake 3.17.2 (for boost-cmake)
+- CMake 3.12 (for boost-cmake)
 
 ## Dependencies
 Git submodule projects:
@@ -33,4 +33,3 @@ git submodule update --init
 2020-06-05 11:13:06.407 31221-31266/com.example.vsomeiphelloworld I/hello_world_client: Sending: World
 2020-06-05 11:13:06.437 31221-31266/com.example.vsomeiphelloworld I/hello_world_client: Received: Hello World
 ```
-
